@@ -1,0 +1,76 @@
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp\WpfApp\bin\Debug\net6.0-windows\WpfApp.exe
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp\WpfApp\bin\Debug\net6.0-windows\WpfApp.deps.json
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp\WpfApp\bin\Debug\net6.0-windows\WpfApp.runtimeconfig.json
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp\WpfApp\bin\Debug\net6.0-windows\WpfApp.dll
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp\WpfApp\bin\Debug\net6.0-windows\WpfApp.pdb
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp\WpfApp\obj\Debug\net6.0-windows\MainWindow.baml
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp\WpfApp\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp\WpfApp\obj\Debug\net6.0-windows\App.g.cs
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp\WpfApp\obj\Debug\net6.0-windows\WpfApp_MarkupCompile.cache
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp\WpfApp\obj\Debug\net6.0-windows\WpfApp.g.resources
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp\WpfApp\obj\Debug\net6.0-windows\WpfApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp\WpfApp\obj\Debug\net6.0-windows\WpfApp.AssemblyInfoInputs.cache
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp\WpfApp\obj\Debug\net6.0-windows\WpfApp.AssemblyInfo.cs
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp\WpfApp\obj\Debug\net6.0-windows\WpfApp.csproj.CoreCompileInputs.cache
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp\WpfApp\obj\Debug\net6.0-windows\WpfApp.dll
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp\WpfApp\obj\Debug\net6.0-windows\refint\WpfApp.dll
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp\WpfApp\obj\Debug\net6.0-windows\WpfApp.pdb
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp\WpfApp\obj\Debug\net6.0-windows\WpfApp.genruntimeconfig.cache
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp\WpfApp\obj\Debug\net6.0-windows\ref\WpfApp.dll
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp - Copy\WpfApp\bin\Debug\net6.0-windows\WpfApp.exe
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp - Copy\WpfApp\bin\Debug\net6.0-windows\WpfApp.deps.json
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp - Copy\WpfApp\bin\Debug\net6.0-windows\WpfApp.runtimeconfig.json
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp - Copy\WpfApp\bin\Debug\net6.0-windows\WpfApp.dll
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp - Copy\WpfApp\bin\Debug\net6.0-windows\WpfApp.pdb
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp - Copy\WpfApp\obj\Debug\net6.0-windows\MainWindow.baml
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp - Copy\WpfApp\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp - Copy\WpfApp\obj\Debug\net6.0-windows\App.g.cs
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp - Copy\WpfApp\obj\Debug\net6.0-windows\WpfApp_MarkupCompile.cache
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp - Copy\WpfApp\obj\Debug\net6.0-windows\WpfApp.g.resources
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp - Copy\WpfApp\obj\Debug\net6.0-windows\WpfApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp - Copy\WpfApp\obj\Debug\net6.0-windows\WpfApp.AssemblyInfoInputs.cache
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp - Copy\WpfApp\obj\Debug\net6.0-windows\WpfApp.AssemblyInfo.cs
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp - Copy\WpfApp\obj\Debug\net6.0-windows\WpfApp.csproj.CoreCompileInputs.cache
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp - Copy\WpfApp\obj\Debug\net6.0-windows\WpfApp.dll
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp - Copy\WpfApp\obj\Debug\net6.0-windows\refint\WpfApp.dll
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp - Copy\WpfApp\obj\Debug\net6.0-windows\WpfApp.pdb
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp - Copy\WpfApp\obj\Debug\net6.0-windows\WpfApp.genruntimeconfig.cache
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp - Copy\WpfApp\obj\Debug\net6.0-windows\ref\WpfApp.dll
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp3\WpfApp\bin\Debug\net6.0-windows\WpfApp.exe
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp3\WpfApp\bin\Debug\net6.0-windows\WpfApp.deps.json
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp3\WpfApp\bin\Debug\net6.0-windows\WpfApp.runtimeconfig.json
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp3\WpfApp\bin\Debug\net6.0-windows\WpfApp.dll
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp3\WpfApp\bin\Debug\net6.0-windows\WpfApp.pdb
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp3\WpfApp\obj\Debug\net6.0-windows\MainWindow.baml
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp3\WpfApp\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp3\WpfApp\obj\Debug\net6.0-windows\App.g.cs
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp3\WpfApp\obj\Debug\net6.0-windows\WpfApp_MarkupCompile.cache
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp3\WpfApp\obj\Debug\net6.0-windows\WpfApp.g.resources
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp3\WpfApp\obj\Debug\net6.0-windows\WpfApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp3\WpfApp\obj\Debug\net6.0-windows\WpfApp.AssemblyInfoInputs.cache
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp3\WpfApp\obj\Debug\net6.0-windows\WpfApp.AssemblyInfo.cs
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp3\WpfApp\obj\Debug\net6.0-windows\WpfApp.csproj.CoreCompileInputs.cache
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp3\WpfApp\obj\Debug\net6.0-windows\WpfApp.dll
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp3\WpfApp\obj\Debug\net6.0-windows\refint\WpfApp.dll
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp3\WpfApp\obj\Debug\net6.0-windows\WpfApp.pdb
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp3\WpfApp\obj\Debug\net6.0-windows\WpfApp.genruntimeconfig.cache
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp3\WpfApp\obj\Debug\net6.0-windows\ref\WpfApp.dll
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp4\WpfApp\bin\Debug\net6.0-windows\WpfApp.exe
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp4\WpfApp\bin\Debug\net6.0-windows\WpfApp.deps.json
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp4\WpfApp\bin\Debug\net6.0-windows\WpfApp.runtimeconfig.json
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp4\WpfApp\bin\Debug\net6.0-windows\WpfApp.dll
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp4\WpfApp\bin\Debug\net6.0-windows\WpfApp.pdb
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp4\WpfApp\obj\Debug\net6.0-windows\MainWindow.baml
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp4\WpfApp\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp4\WpfApp\obj\Debug\net6.0-windows\App.g.cs
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp4\WpfApp\obj\Debug\net6.0-windows\WpfApp_MarkupCompile.cache
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp4\WpfApp\obj\Debug\net6.0-windows\WpfApp.g.resources
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp4\WpfApp\obj\Debug\net6.0-windows\WpfApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp4\WpfApp\obj\Debug\net6.0-windows\WpfApp.AssemblyInfoInputs.cache
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp4\WpfApp\obj\Debug\net6.0-windows\WpfApp.AssemblyInfo.cs
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp4\WpfApp\obj\Debug\net6.0-windows\WpfApp.csproj.CoreCompileInputs.cache
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp4\WpfApp\obj\Debug\net6.0-windows\WpfApp.dll
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp4\WpfApp\obj\Debug\net6.0-windows\refint\WpfApp.dll
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp4\WpfApp\obj\Debug\net6.0-windows\WpfApp.pdb
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp4\WpfApp\obj\Debug\net6.0-windows\WpfApp.genruntimeconfig.cache
+D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp4\WpfApp\obj\Debug\net6.0-windows\ref\WpfApp.dll
