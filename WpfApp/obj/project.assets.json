@@ -8,19 +8,19 @@
     "net6.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\BeRocker\\.nuget\\packages\\": {}
+    "C:\\Users\\Ivan_Simakovich\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Univer\\Kurs5\\BasicCompGraphics\\KR1\\WpfApp4\\WpfApp\\WpfApp.csproj",
+      "projectUniqueName": "D:\\Study\\Univer\\5 curse\\AlgCompGraphics\\CompGraph\\WpfApp\\WpfApp.csproj",
       "projectName": "WpfApp",
-      "projectPath": "D:\\Univer\\Kurs5\\BasicCompGraphics\\KR1\\WpfApp4\\WpfApp\\WpfApp.csproj",
-      "packagesPath": "C:\\Users\\BeRocker\\.nuget\\packages\\",
-      "outputPath": "D:\\Univer\\Kurs5\\BasicCompGraphics\\KR1\\WpfApp4\\WpfApp\\obj\\",
+      "projectPath": "D:\\Study\\Univer\\5 curse\\AlgCompGraphics\\CompGraph\\WpfApp\\WpfApp.csproj",
+      "packagesPath": "C:\\Users\\Ivan_Simakovich\\.nuget\\packages\\",
+      "outputPath": "D:\\Study\\Univer\\5 curse\\AlgCompGraphics\\CompGraph\\WpfApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\BeRocker\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ivan_Simakovich\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +64,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400-preview.23330.10\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

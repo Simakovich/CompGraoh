@@ -1,13 +1,13 @@
-﻿using System;
+﻿using Clipping2D.Clipping;
+using Clipping2D.Polygon;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Windows;
 using System.Windows.Media;
 using System.Windows.Shapes;
 using System.Windows.Threading;
-using System.Drawing;
 using Point = System.Windows.Point;
-using System.Linq;
-using System.Windows.Media.Media3D;
 
 namespace WpfApp
 {
@@ -28,6 +28,9 @@ namespace WpfApp
         private float dx, dy;
         private float[,] dh = new float[4, 2];
         private int k;
+
+        private Polygon2D _trapeze;
+        private Polygon2D _rectangle;
 
         public MainWindow()
         {
@@ -193,6 +196,104 @@ namespace WpfApp
         //    var pol1 = new Polygon(cvadr);
         //    pol.CyrusBeckClip(new List<Segment> { new Segment(c5, c6) });
         //}
+        public void AnotherTry(int l)
+        {
+            Polygon2D rec = GetRectangle(l);
+
+            Polygon2D cross = GetCross();
+
+            rec.ClipByPolygon(cross, ClippingType.External);
+            DrawPolygone(rec);
+            DrawPolygone(cross);
+        }
+
+        private Polygon2D GetRectangle(int l)
+        {
+            for (int i = 0; i < 4; i++)
+            {
+                M1[i, 0] = (int)(M[i, 0] + l * dh[i, 0] + r[l] * dx);
+                M1[i, 1] = (int)(M[i, 1] + l * dh[i, 1] + s[l] * dy);
+            }
+            var pointList = new List<Point>
+            {
+                new Point(M1[0, 0], M1[0, 1]),
+                new Point(M1[1, 0], M1[1, 1]),
+                new Point(M1[2, 0], M1[2, 1]),
+                new Point(M1[3, 0], M1[3, 1]),
+                new Point(M1[0, 0], M1[0, 1]),
+            };
+
+            var rec = new Polygon2D(pointList);
+            return rec;
+        }
+
+        private Polygon2D GetCross()
+        {
+            double innerWidth = _crossWidth / 4;
+            double innerHeight = _crossHeight / 4;
+
+            Point topMiddleLeft1 = new Point(_crossCenterX - innerWidth, _crossCenterY - innerHeight);
+            Point topLeft2 = new Point(_crossCenterX - _crossWidth / 2, _crossCenterY - _crossHeight);
+            Point topRight2 = new Point(_crossCenterX + _crossWidth / 2, _crossCenterY - _crossHeight);
+            Point topMiddleRight1 = new Point(_crossCenterX + innerWidth, _crossCenterY - innerHeight);
+            Point rightTop1 = new Point(_crossCenterX + _crossWidth, _crossCenterY - _crossHeight / 2);
+            Point rightBottom2 = new Point(_crossCenterX + _crossWidth, _crossCenterY + _crossHeight / 2);
+            Point bottomMiddleRight1 = new Point(_crossCenterX + innerWidth, _crossCenterY + innerHeight);
+            Point bottomRight2 = new Point(_crossCenterX + _crossWidth / 2, _crossCenterY + _crossHeight);
+            Point bottomLeft2 = new Point(_crossCenterX - _crossWidth / 2, _crossCenterY + _crossHeight);
+            Point bottomMiddleLeft1 = new Point(_crossCenterX - innerWidth, _crossCenterY + innerHeight);
+            Point leftBottom1 = new Point(_crossCenterX - _crossWidth, _crossCenterY + _crossHeight / 2);
+            Point leftTop2 = new Point(_crossCenterX - _crossWidth, _crossCenterY - _crossHeight / 2);
+
+            var ches = new List<Point>
+            {
+                topMiddleLeft1,
+                topLeft2,
+                topRight2,
+                topMiddleRight1,
+                rightTop1,
+                rightBottom2,
+                bottomMiddleRight1,
+                bottomRight2,
+                bottomLeft2,
+                bottomMiddleLeft1,
+                leftBottom1,
+                leftTop2,
+            };
+            var line = new Polygon2D(ches);
+            return line;
+        }
+
+        private void DrawPolygone(Polygon2D pol)
+        {
+            foreach (var item in pol.Edges)
+            {
+                var t = item.VisibleParts.Select(x => new List<Point> { x.Start, x.End });
+                foreach (var l in t)
+                {
+                    Draw(l);
+                }
+            }
+        }
+
+        private void Draw(IEnumerable<Point> points)
+        {
+            PointCollection rectanglePointCollection = new PointCollection(points);
+            Polyline rectangleLine = new Polyline
+            {
+                Stroke = Brushes.Black,
+                StrokeThickness = 1
+            };
+
+            rectangleLine.Points = rectanglePointCollection;
+            MainCanvas.Children.Add(rectangleLine);
+        }
+
+        private void PerformClipping()
+        {
+            _trapeze.ResetClipping();
+            _trapeze.ClipByPolygon(_rectangle, ClippingType.Inside);
+        }
 
         private void Draw1(IEnumerable<Point> ps)
         {
@@ -217,7 +318,7 @@ namespace WpfApp
             Point topRight2 = new Point(_crossCenterX + _crossWidth / 2, _crossCenterY - _crossHeight);
 
             var cuttedLines = pol.CyrusBeckClip(new List<Segment>
-            { 
+            {
                 new Segment(topMiddleLeft1, topLeft2),
                 //new Segment(topLeft2, topRight2),
                 //new Segment(topRight2, topMiddleRight1),
@@ -293,7 +394,41 @@ namespace WpfApp
             MainCanvas.Children.Clear();
 
 
+            AnotherTry(1);
+            if (Radio1.IsChecked == true)
+            {
+                for (k = 0; k <= 30; k++)
+                {
+                    AnotherTry(k);
+                }
+            }
+            else
+            {
+                AnotherTry(j);
+            }
+
+            //if (Radio1.IsChecked == true)
+            //{
+            //    for (k = 0; k <= 30; k++)
+            //    {
+            //        Figure(k);
+            //    }
+            //}
+            //else
+            //{
+            //    Figure(j);
+            //}
+        }
+
+        private void HSlider_ValueChanged1(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            pr = 0;
+            j = (int)HSlider.Value;
+            MainCanvas.Children.Clear();
+
+
             Figure1(j);
+
             //if (Radio1.IsChecked == true)
             //{
             //    for (k = 0; k <= 30; k++)

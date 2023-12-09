@@ -74,3 +74,22 @@ D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp4\WpfApp\obj\Debug\net6.0-windows\re
 D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp4\WpfApp\obj\Debug\net6.0-windows\WpfApp.pdb
 D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp4\WpfApp\obj\Debug\net6.0-windows\WpfApp.genruntimeconfig.cache
 D:\Univer\Kurs5\BasicCompGraphics\KR1\WpfApp4\WpfApp\obj\Debug\net6.0-windows\ref\WpfApp.dll
+D:\Study\Univer\5 curse\AlgCompGraphics\CompGraph\WpfApp\bin\Debug\net6.0-windows\WpfApp.exe
+D:\Study\Univer\5 curse\AlgCompGraphics\CompGraph\WpfApp\bin\Debug\net6.0-windows\WpfApp.deps.json
+D:\Study\Univer\5 curse\AlgCompGraphics\CompGraph\WpfApp\bin\Debug\net6.0-windows\WpfApp.runtimeconfig.json
+D:\Study\Univer\5 curse\AlgCompGraphics\CompGraph\WpfApp\bin\Debug\net6.0-windows\WpfApp.dll
+D:\Study\Univer\5 curse\AlgCompGraphics\CompGraph\WpfApp\bin\Debug\net6.0-windows\WpfApp.pdb
+D:\Study\Univer\5 curse\AlgCompGraphics\CompGraph\WpfApp\obj\Debug\net6.0-windows\MainWindow.baml
+D:\Study\Univer\5 curse\AlgCompGraphics\CompGraph\WpfApp\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\Study\Univer\5 curse\AlgCompGraphics\CompGraph\WpfApp\obj\Debug\net6.0-windows\App.g.cs
+D:\Study\Univer\5 curse\AlgCompGraphics\CompGraph\WpfApp\obj\Debug\net6.0-windows\WpfApp_MarkupCompile.cache
+D:\Study\Univer\5 curse\AlgCompGraphics\CompGraph\WpfApp\obj\Debug\net6.0-windows\WpfApp.g.resources
+D:\Study\Univer\5 curse\AlgCompGraphics\CompGraph\WpfApp\obj\Debug\net6.0-windows\WpfApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\Study\Univer\5 curse\AlgCompGraphics\CompGraph\WpfApp\obj\Debug\net6.0-windows\WpfApp.AssemblyInfoInputs.cache
+D:\Study\Univer\5 curse\AlgCompGraphics\CompGraph\WpfApp\obj\Debug\net6.0-windows\WpfApp.AssemblyInfo.cs
+D:\Study\Univer\5 curse\AlgCompGraphics\CompGraph\WpfApp\obj\Debug\net6.0-windows\WpfApp.csproj.CoreCompileInputs.cache
+D:\Study\Univer\5 curse\AlgCompGraphics\CompGraph\WpfApp\obj\Debug\net6.0-windows\WpfApp.dll
+D:\Study\Univer\5 curse\AlgCompGraphics\CompGraph\WpfApp\obj\Debug\net6.0-windows\refint\WpfApp.dll
+D:\Study\Univer\5 curse\AlgCompGraphics\CompGraph\WpfApp\obj\Debug\net6.0-windows\WpfApp.pdb
+D:\Study\Univer\5 curse\AlgCompGraphics\CompGraph\WpfApp\obj\Debug\net6.0-windows\WpfApp.genruntimeconfig.cache
+D:\Study\Univer\5 curse\AlgCompGraphics\CompGraph\WpfApp\obj\Debug\net6.0-windows\ref\WpfApp.dll
