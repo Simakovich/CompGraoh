@@ -18,7 +18,7 @@ namespace WpfApp
         private double _crossCenterY = 400;
         private double _crossWidth = 200;
         private double _crossHeight = 200;
-        private int[,] M = new int[4, 2] { { 100, 300 }, { 400, 300 }, { 400, 450 }, { 100, 450 } };
+        private int[,] M = new int[4, 2] { { 100, 700 }, { 400, 300 }, { 400, 450 }, { 100, 450 } };
 
         private float[] r = new float[31];
         private float[] s = new float[31];
