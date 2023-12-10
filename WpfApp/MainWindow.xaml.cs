@@ -18,7 +18,7 @@ namespace WpfApp
         private double _crossCenterY = 400;
         private double _crossWidth = 200;
         private double _crossHeight = 200;
-        private int[,] M = new int[4, 2] { { 100, 700 }, { 400, 300 }, { 400, 450 }, { 100, 450 } };
+        private int[,] M = new int[4, 2] { { 100, 600 }, { 700, 600 }, { 700, 200 }, { 100, 200 } };
 
         private float[] r = new float[31];
         private float[] s = new float[31];
@@ -51,6 +51,7 @@ namespace WpfApp
 
             Radio1.IsChecked = false;
             Radio2.IsChecked = true;
+            Init();
         }
 
         private void DrawCross()
@@ -108,6 +109,48 @@ namespace WpfApp
             };
 
             return crossPath;
+        }
+
+        private void Init()
+        {
+            float[] centerX = new float[4];
+            float[] centerY = new float[4];
+
+
+            for (int i = 0; i < 4; i++)
+            {
+                M1[i, 0] = M[i, 0];
+                M1[i, 1] = M[i, 1];
+            }
+
+            Random rnd = new Random();
+            for (int i = 1; i <= 30; i++)
+            {
+                r[i] = 4 * (float)rnd.NextDouble() - 2;
+                s[i] = 4 * (float)rnd.NextDouble() - 2;
+            }
+            pr = 1;
+            j = 0;
+            dx = 2;
+            dy = 1;
+
+            for (int i = 0; i < 4; i++)
+            {
+                centerX[i] = M[i, 0];
+                centerY[i] = M[i, 1];
+            }
+            float cx = (centerX[0] + centerX[1] + centerX[2] + centerX[3]) / 4;
+            float cy = (centerY[0] + centerY[1] + centerY[2] + centerY[3]) / 4;
+
+            for (int i = 0; i < 4; i++)
+            {
+                dh[i, 0] = (cx - M[i, 0]) / 30;
+                dh[i, 1] = (cy - M[i, 1]) / 30;
+            }
+            StartButton.IsEnabled = false;
+            ResetButton.IsEnabled = true;
+
+            timer.Start();
         }
 
         private void StartButton_Click(object sender, RoutedEventArgs e)
@@ -202,7 +245,7 @@ namespace WpfApp
 
             Polygon2D cross = GetCross();
 
-            rec.ClipByPolygon(cross, ClippingType.External);
+            cross.ClipByPolygon(rec, ClippingType.External);
             DrawPolygone(rec);
             DrawPolygone(cross);
         }
@@ -394,7 +437,7 @@ namespace WpfApp
             MainCanvas.Children.Clear();
 
 
-            AnotherTry(1);
+            ////AnotherTry(1);
             if (Radio1.IsChecked == true)
             {
                 for (k = 0; k <= 30; k++)
